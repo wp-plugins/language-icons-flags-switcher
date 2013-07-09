@@ -50,7 +50,8 @@ Thanks
 
 == Upgrade notice ==
 
-
+Fixed Bug with register_mysettings.
+Added three more languages.
 
 == Arbitrary section 1 ==
 
