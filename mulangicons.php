@@ -2,7 +2,7 @@
 
 /**
  * @package Multisite Language Icons Switcher
- * @version 1.0
+ * @version 1.1
  */
 
 /*
@@ -15,7 +15,7 @@ Description: This plugin helps you to add icons with links on the site.
 
 Author: Vasilis Triantafyllou
 
-Version: 1.0
+Version: 1.1
 
 Author URI: http://www.webcraft.gr
 
@@ -57,6 +57,10 @@ $opt10 = get_option('option_10');
 
 $opt11 = get_option('option_11');
 
+$opt12 = get_option('option_12');
+
+$opt13 = get_option('option_13');
+
 
 if ($opt1 == 1) { ?><a href ="<?php echo get_option('option_name1'); ?>"><?php echo '<img src="' . plugins_url( 'img/english.png' , __FILE__ ) . '" >'; ?></a> <?php }
 
@@ -78,7 +82,11 @@ if ($opt9 == 1) { ?><a href ="<?php echo get_option('option_name9'); ?>"><?php e
 
 if ($opt10 == 1) { ?><a href ="<?php echo get_option('option_name10'); ?>"><?php echo '<img src="' . plugins_url( 'img/swedish.png' , __FILE__ ) . '" >'; ?></a> <?php }
 
-if ($opt11 == 1) { ?><a href ="<?php echo get_option('option_name11'); ?>"><?php echo '<img src="' . plugins_url( 'img/french.png' , __FILE__ ) . '" >'; ?></a> <?php }
+if ($opt11 == 1) { ?><a href ="<?php echo get_option('option_name11'); ?>"><?php echo '<img src="' . plugins_url( 'img/swedish.png' , __FILE__ ) . '" >'; ?></a> <?php }
+
+if ($opt12 == 1) { ?><a href ="<?php echo get_option('option_name12'); ?>"><?php echo '<img src="' . plugins_url( 'img/italy.png' , __FILE__ ) . '" >'; ?></a> <?php }
+
+if ($opt13 == 1) { ?><a href ="<?php echo get_option('option_name13'); ?>"><?php echo '<img src="' . plugins_url( 'img/dutch.png' , __FILE__ ) . '" >'; ?></a> <?php }
 
 else {} }
 
