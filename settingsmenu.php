@@ -55,6 +55,10 @@ function register_mysettings_language() {
  register_setting( 'myoption-group', 'option_12' );
  
  register_setting( 'myoption-group', 'option_13' );
+ 
+ register_setting( 'myoption-group', 'option_14' );
+ 
+ register_setting( 'myoption-group', 'option_15' );
 
  register_setting( 'myoption-group', 'option_name1' );
 
@@ -81,6 +85,10 @@ function register_mysettings_language() {
  register_setting( 'myoption-group', 'option_name12' );
  
  register_setting( 'myoption-group', 'option_name13' );
+ 
+ register_setting( 'myoption-group', 'option_name14' );
+ 
+ register_setting( 'myoption-group', 'option_name15' );
 
 }
 
@@ -199,6 +207,10 @@ function my_plugin_options() {
 			<input type="checkbox" name="option_12" value="1" <?php checked( '1', get_option( 'option_12' ) ); ?>><img src="<?php echo plugins_url( 'img/italy.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name12" value="<?php echo get_option('option_name12'); ?>"><br/>
 			
 			<input type="checkbox" name="option_13" value="1" <?php checked( '1', get_option( 'option_13' ) ); ?>><img src="<?php echo plugins_url( 'img/dutch.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name13" value="<?php echo get_option('option_name13'); ?>"><br/>
+			
+			<input type="checkbox" name="option_14" value="1" <?php checked( '1', get_option( 'option_14' ) ); ?>><img src="<?php echo plugins_url( 'img/korea.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name14" value="<?php echo get_option('option_name14'); ?>"><br/>
+			
+			<input type="checkbox" name="option_15" value="1" <?php checked( '1', get_option( 'option_15' ) ); ?>><img src="<?php echo plugins_url( 'img/china.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name15" value="<?php echo get_option('option_name15'); ?>"><br/>
 
 
 
