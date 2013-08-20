@@ -16,6 +16,8 @@ This plugin helps you to add the flag icons with the targeted links on your site
 
 You just have to select position,flag and add the link!
 
+Flags Icons: English, Greece, Germany, Spain, Portugal,Turkey, Japan, Israel, Saudi Arabia, Sweden, France, Italy, Netherlands, s. Korea, China
+
 == Installation ==
 
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
