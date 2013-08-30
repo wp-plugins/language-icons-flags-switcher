@@ -4,7 +4,7 @@ Donate link:
 Tags: language, flags, multisite, icons, switch, select, flag, icon, country, countries
 Requires at least: 3.3
 Tested up to: 3.5.1
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,7 +16,7 @@ This plugin helps you to add the flag icons with the targeted links on your site
 
 You just have to select position,flag and add the link!
 
-Flags Icons: English, Greece, Germany, Spain, Portugal,Turkey, Japan, Israel, Saudi Arabia, Sweden, France, Italy, Netherlands, s. Korea, China
+Flags Icons: English, Greece, Germany, Spain, Portugal, Usa, Turkey, Japan, Israel, Saudi Arabia, Sweden, France, Italy, Netherlands, s. Korea, China, Czech , Cyprus, Russia and Poland.
 
 == Installation ==
 

@@ -66,6 +66,16 @@ $opt14 = get_option('option_14');
 
 $opt15 = get_option('option_15');
 
+$opt16 = get_option('option_16');
+
+$opt17 = get_option('option_17');
+
+$opt18 = get_option('option_18');
+
+$opt19 = get_option('option_19');
+
+$opt20 = get_option('option_20');
+
 if ($opt1  == 1) {?><a href ="<?php echo get_option('option_name1'); ?>"><?php echo '<img src="' . plugins_url( 'img/english.png' , __FILE__ ) . '" >'; ?></a> <?php } if ($opt2  == 1) {?>
 
 <a href ="<?php echo get_option('option_name2'); ?>"><?php echo '<img src="' . plugins_url( 'img/greece.png', __FILE__ ) . '" >'; ?></a> <?php } if ($opt3 == 1) {?>
@@ -94,4 +104,14 @@ if ($opt1  == 1) {?><a href ="<?php echo get_option('option_name1'); ?>"><?php e
 
 <a href ="<?php echo get_option('option_name14'); ?>"><?php echo '<img src="' . plugins_url( 'img/korea.png', __FILE__ ) . '" >'; ?></a> <?php } if ($opt15 == 1) {?>
 
-<a href ="<?php echo get_option('option_name15'); ?>"><?php echo '<img src="' . plugins_url( 'img/china.png', __FILE__ ) . '" >'; ?></a> <?php } else {} }?>
+<a href ="<?php echo get_option('option_name15'); ?>"><?php echo '<img src="' . plugins_url( 'img/china.png', __FILE__ ) . '" >'; ?></a> <?php } if ($opt16 == 1) {?>
+
+<a href ="<?php echo get_option('option_name16'); ?>"><?php echo '<img src="' . plugins_url( 'img/poland.png', __FILE__ ) . '" >'; ?></a> <?php } if ($opt17 == 1) {?>
+
+<a href ="<?php echo get_option('option_name17'); ?>"><?php echo '<img src="' . plugins_url( 'img/cyprus.png', __FILE__ ) . '" >'; ?></a> <?php } if ($opt18 == 1) {?>
+
+<a href ="<?php echo get_option('option_name18'); ?>"><?php echo '<img src="' . plugins_url( 'img/czech.png', __FILE__ ) . '" >'; ?></a> <?php } if ($opt19 == 1) {?>
+
+<a href ="<?php echo get_option('option_name19'); ?>"><?php echo '<img src="' . plugins_url( 'img/russia.png', __FILE__ ) . '" >'; ?></a> <?php } if ($opt20 == 1) {?>
+
+<a href ="<?php echo get_option('option_name20'); ?>"><?php echo '<img src="' . plugins_url( 'img/usa.png', __FILE__ ) . '" >'; ?></a> <?php } else {} }?>
