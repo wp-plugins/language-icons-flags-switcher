@@ -1,4 +1,6 @@
-.marginset { margin-left:150px; }
+.marginset { margin-left:100px; }
+
+input[type="url"] {width:300px;}
 
 .op1 {position:fixed;left:10px;top:10px;z-index:9999;}
 
