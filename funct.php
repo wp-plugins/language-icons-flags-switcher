@@ -131,4 +131,3 @@ if ($opt1  == 1) {?><a href ="<?php echo get_option('option_name1'); ?>"><?php e
 <a href ="<?php echo get_option('option_name23'); ?>"><?php echo '<img src="' . plugins_url( 'img/thai.png', __FILE__ ) . '" >'; ?></a> <?php }  if ($opt24 == 1) {?>
 
 <a href ="<?php echo get_option('option_name24'); ?>"><?php echo '<img src="' . plugins_url( 'img/danish.png', __FILE__ ) . '" >'; ?></a> <?php } else {} }?>
-
