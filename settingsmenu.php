@@ -77,6 +77,14 @@ function register_mysettings_language() {
  register_setting( 'myoption-group', 'option_23' );
  
  register_setting( 'myoption-group', 'option_24' );
+ 
+ register_setting( 'myoption-group', 'option_25' );
+ 
+ register_setting( 'myoption-group', 'option_26' );
+ 
+ register_setting( 'myoption-group', 'option_27' );
+ 
+ register_setting( 'myoption-group', 'option_28' );
 
  register_setting( 'myoption-group', 'option_name1' );
 
@@ -125,6 +133,14 @@ function register_mysettings_language() {
  register_setting( 'myoption-group', 'option_name23' );
  
  register_setting( 'myoption-group', 'option_name24' );
+ 
+ register_setting( 'myoption-group', 'option_name25' );
+ 
+ register_setting( 'myoption-group', 'option_name26' );
+ 
+ register_setting( 'myoption-group', 'option_name27' );
+ 
+ register_setting( 'myoption-group', 'option_name28' );
 
 }
 
@@ -241,7 +257,10 @@ function my_plugin_options() {
 			<input type="checkbox" name="option_11" value="1" <?php checked( '1', get_option( 'option_11' ) ); ?>><img src="<?php echo plugins_url( 'img/french.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name11" value="<?php echo get_option('option_name11'); ?>"><br/>
 			
 			<input type="checkbox" name="option_24" value="1" <?php checked( '1', get_option( 'option_24' ) ); ?>><img src="<?php echo plugins_url( 'img/danish.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name24" value="<?php echo get_option('option_name24'); ?>"><br/>
-
+			
+			<input type="checkbox" name="option_25" value="1" <?php checked( '1', get_option( 'option_25' ) ); ?>><img src="<?php echo plugins_url( 'img/finland.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name25" value="<?php echo get_option('option_name25'); ?>"><br/>
+			
+			<input type="checkbox" name="option_26" value="1" <?php checked( '1', get_option( 'option_26' ) ); ?>><img src="<?php echo plugins_url( 'img/norway.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name26" value="<?php echo get_option('option_name26'); ?>"><br/>
 </div>
 <div style = "float:right;width:50%;">
 			
@@ -268,6 +287,10 @@ function my_plugin_options() {
 			<input type="checkbox" name="option_22" value="1" <?php checked( '1', get_option( 'option_22' ) ); ?>><img src="<?php echo plugins_url( 'img/singapore.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name22" value="<?php echo get_option('option_name22'); ?>"><br/>
 			
 			<input type="checkbox" name="option_23" value="1" <?php checked( '1', get_option( 'option_23' ) ); ?>><img src="<?php echo plugins_url( 'img/thai.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name23" value="<?php echo get_option('option_name23'); ?>"><br/>
+			
+			<input type="checkbox" name="option_27" value="1" <?php checked( '1', get_option( 'option_27' ) ); ?>><img src="<?php echo plugins_url( 'img/brazil.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name27" value="<?php echo get_option('option_name27'); ?>"><br/>
+						
+			<input type="checkbox" name="option_28" value="1" <?php checked( '1', get_option( 'option_28' ) ); ?>><img src="<?php echo plugins_url( 'img/argentina.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name28" value="<?php echo get_option('option_name28'); ?>"><br/>
 
 <br/><br/><br/>
 
