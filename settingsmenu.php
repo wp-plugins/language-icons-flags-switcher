@@ -85,7 +85,17 @@ function register_mysettings_language() {
  register_setting( 'myoption-group', 'option_27' );
  
  register_setting( 'myoption-group', 'option_28' );
-
+ 
+ register_setting( 'myoption-group', 'option_29' );
+ 
+ register_setting( 'myoption-group', 'option_30' );
+ 
+ register_setting( 'myoption-group', 'option_31' );
+ 
+ register_setting( 'myoption-group', 'option_32' );
+ 
+ register_setting( 'myoption-group', 'option_33' );
+ 
  register_setting( 'myoption-group', 'option_name1' );
 
  register_setting( 'myoption-group', 'option_name2' );
@@ -141,7 +151,17 @@ function register_mysettings_language() {
  register_setting( 'myoption-group', 'option_name27' );
  
  register_setting( 'myoption-group', 'option_name28' );
-
+ 
+ register_setting( 'myoption-group', 'option_name29' );
+ 
+ register_setting( 'myoption-group', 'option_name30' );
+ 
+ register_setting( 'myoption-group', 'option_name31' );
+ 
+ register_setting( 'myoption-group', 'option_name32' );
+ 
+ register_setting( 'myoption-group', 'option_name33' );
+ 
 }
 
 
@@ -261,6 +281,12 @@ function my_plugin_options() {
 			<input type="checkbox" name="option_25" value="1" <?php checked( '1', get_option( 'option_25' ) ); ?>><img src="<?php echo plugins_url( 'img/finland.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name25" value="<?php echo get_option('option_name25'); ?>"><br/>
 			
 			<input type="checkbox" name="option_26" value="1" <?php checked( '1', get_option( 'option_26' ) ); ?>><img src="<?php echo plugins_url( 'img/norway.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name26" value="<?php echo get_option('option_name26'); ?>"><br/>
+			
+			<input type="checkbox" name="option_29" value="1" <?php checked( '1', get_option( 'option_29' ) ); ?>><img src="<?php echo plugins_url( 'img/india.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name29" value="<?php echo get_option('option_name29'); ?>"><br/>
+				
+			<input type="checkbox" name="option_30" value="1" <?php checked( '1', get_option( 'option_30' ) ); ?>><img src="<?php echo plugins_url( 'img/romania.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name30" value="<?php echo get_option('option_name30'); ?>"><br/>
+					
+			<input type="checkbox" name="option_31" value="1" <?php checked( '1', get_option( 'option_31' ) ); ?>><img src="<?php echo plugins_url( 'img/wales.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name31" value="<?php echo get_option('option_name31'); ?>"><br/>
 </div>
 <div style = "float:right;width:50%;">
 			
@@ -291,7 +317,11 @@ function my_plugin_options() {
 			<input type="checkbox" name="option_27" value="1" <?php checked( '1', get_option( 'option_27' ) ); ?>><img src="<?php echo plugins_url( 'img/brazil.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name27" value="<?php echo get_option('option_name27'); ?>"><br/>
 						
 			<input type="checkbox" name="option_28" value="1" <?php checked( '1', get_option( 'option_28' ) ); ?>><img src="<?php echo plugins_url( 'img/argentina.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name28" value="<?php echo get_option('option_name28'); ?>"><br/>
-
+							
+			<input type="checkbox" name="option_32" value="1" <?php checked( '1', get_option( 'option_32' ) ); ?>><img src="<?php echo plugins_url( 'img/ireland.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name32" value="<?php echo get_option('option_name32'); ?>"><br/>
+					
+			<input type="checkbox" name="option_33" value="1" <?php checked( '1', get_option( 'option_33' ) ); ?>><img src="<?php echo plugins_url( 'img/hungary.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name33" value="<?php echo get_option('option_name33'); ?>"><br/>
+</div>
 <br/><br/><br/>
 
 </div>
