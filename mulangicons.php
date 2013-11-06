@@ -99,6 +99,8 @@ $opt31 = get_option('option_31');
 
 $opt32 = get_option('option_32');
 
+$opt33 = get_option('option_33');
+
 
 if ($opt1 == 1) { ?><a href ="<?php echo get_option('option_name1'); ?>"><?php echo '<img src="' . plugins_url( 'img/english.png' , __FILE__ ) . '" >'; ?></a> <?php }
 
