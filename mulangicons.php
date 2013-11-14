@@ -101,6 +101,8 @@ $opt32 = get_option('option_32');
 
 $opt33 = get_option('option_33');
 
+$opt34 = get_option('option_34');
+
 
 if ($opt1 == 1) { ?><a href ="<?php echo get_option('option_name1'); ?>"><?php echo '<img alt = "English" title = "English" src="' . plugins_url( 'img/english.png' , __FILE__ ) . '" >'; ?></a> <?php }
 
@@ -168,6 +170,7 @@ if ($opt32 == 1) { ?><a href ="<?php echo get_option('option_name32'); ?>"><?php
 
 if ($opt33 == 1) { ?><a href ="<?php echo get_option('option_name33'); ?>"><?php echo '<img alt = "Hungary" title = "Hungary"  src="' . plugins_url( 'img/hungary.png' , __FILE__ ) . '" >'; ?></a> <?php }
 
+if ($opt34 == 1) { ?><a href ="<?php echo get_option('option_name34'); ?>"><?php echo '<img alt = "Slovakia" title = "Slovakia"  src="' . plugins_url( 'img/slovakia.png' , __FILE__ ) . '" >'; ?></a> <?php }
 else {} }
 
 
