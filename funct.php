@@ -104,6 +104,10 @@ $opt33 = get_option('option_33');
 
 $opt34 = get_option('option_34');
 
+$opt35 = get_option('option_35');
+
+$opt36 = get_option('option_36');
+
 if ($opt1  == 1) {?><a href ="<?php echo get_option('option_name1'); ?>"><?php echo '<img alt = "English" title = "English" src="' . plugins_url( 'img/english.png' , __FILE__ ) . '" >'; ?></a> <?php } if ($opt2  == 1) {?>
 
 <a href ="<?php echo get_option('option_name2'); ?>"><?php echo '<img alt = "Greece" title = "Greece" src="' . plugins_url( 'img/greece.png', __FILE__ ) . '" >'; ?></a> <?php } if ($opt3 == 1) {?>
@@ -170,4 +174,8 @@ if ($opt1  == 1) {?><a href ="<?php echo get_option('option_name1'); ?>"><?php e
 
 <a href ="<?php echo get_option('option_name33'); ?>"><?php echo '<img alt = "Hungary" title = "Hungary" src="' . plugins_url( 'img/hungary.png', __FILE__ ) . '" >'; ?></a> <?php } if ($opt34 == 1) {?>
 
-<a href ="<?php echo get_option('option_name34'); ?>"><?php echo '<img alt = "Slovakia" title = "Slovakia" src="' . plugins_url( 'img/slovakia.png', __FILE__ ) . '" >'; ?></a> <?php } else {} }?>
+<a href ="<?php echo get_option('option_name34'); ?>"><?php echo '<img alt = "Slovakia" title = "Slovakia" src="' . plugins_url( 'img/slovakia.png', __FILE__ ) . '" >'; ?></a> <?php } if ($opt35 == 1) {?>
+
+<a href ="<?php echo get_option('option_name35'); ?>"><?php echo '<img alt = "Slovakia" title = "Canada" src="' . plugins_url( 'img/canada.png', __FILE__ ) . '" >'; ?></a> <?php } if ($opt36 == 1) {?>
+
+<a href ="<?php echo get_option('option_name36'); ?>"><?php echo '<img alt = "Slovakia" title = "Bulgaria" src="' . plugins_url( 'img/bulgaria.png', __FILE__ ) . '" >'; ?></a> <?php } else {} }?>
