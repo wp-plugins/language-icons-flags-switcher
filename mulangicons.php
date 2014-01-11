@@ -107,6 +107,13 @@ $opt35 = get_option('option_35');
 
 $opt36 = get_option('option_36');
 
+$opt37 = get_option('option_37');
+
+$opt38 = get_option('option_38');
+
+$opt39 = get_option('option_39');
+
+
 
 if ($opt1 == 1) { ?><a href ="<?php echo get_option('option_name1'); ?>"><?php echo '<img alt = "English" title = "English" src="' . plugins_url( 'img/english.png' , __FILE__ ) . '" >'; ?></a> <?php }
 
@@ -176,9 +183,15 @@ if ($opt33 == 1) { ?><a href ="<?php echo get_option('option_name33'); ?>"><?php
 
 if ($opt34 == 1) { ?><a href ="<?php echo get_option('option_name34'); ?>"><?php echo '<img alt = "Slovakia" title = "Slovakia"  src="' . plugins_url( 'img/slovakia.png' , __FILE__ ) . '" >'; ?></a> <?php }
 
-if ($opt35 == 1) { ?><a href ="<?php echo get_option('option_name35'); ?>"><?php echo '<img alt = "Slovakia" title = "Canada"  src="' . plugins_url( 'img/canada.png' , __FILE__ ) . '" >'; ?></a> <?php }
+if ($opt35 == 1) { ?><a href ="<?php echo get_option('option_name35'); ?>"><?php echo '<img alt = "Canada" title = "Canada"  src="' . plugins_url( 'img/canada.png' , __FILE__ ) . '" >'; ?></a> <?php }
 
-if ($opt36 == 1) { ?><a href ="<?php echo get_option('option_name36'); ?>"><?php echo '<img alt = "Slovakia" title = "Bulgaria"  src="' . plugins_url( 'img/bulgaria.png' , __FILE__ ) . '" >'; ?></a> <?php }
+if ($opt36 == 1) { ?><a href ="<?php echo get_option('option_name36'); ?>"><?php echo '<img alt = "Bulgaria" title = "Bulgaria"  src="' . plugins_url( 'img/bulgaria.png' , __FILE__ ) . '" >'; ?></a> <?php }
+
+if ($opt37 == 1) { ?><a href ="<?php echo get_option('option_name37'); ?>"><?php echo '<img alt = "Estonia" title = "Estonia"  src="' . plugins_url( 'img/estonia.png' , __FILE__ ) . '" >'; ?></a> <?php }
+
+if ($opt38 == 1) { ?><a href ="<?php echo get_option('option_name38'); ?>"><?php echo '<img alt = "Latvia" title = "Latvia"  src="' . plugins_url( 'img/latvia.png' , __FILE__ ) . '" >'; ?></a> <?php }
+
+if ($opt39 == 1) { ?><a href ="<?php echo get_option('option_name39'); ?>"><?php echo '<img alt = "Lithuania" title = "Lithuania"  src="' . plugins_url( 'img/lithuania.png' , __FILE__ ) . '" >'; ?></a> <?php }
 else {} }
 
 
