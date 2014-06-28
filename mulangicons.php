@@ -2,20 +2,20 @@
 
 /**
  * @package Multisite Language Icons Switcher
- * @version 1.1
+ * @version 1.2
  */
 
 /*
 
-Plugin Name: Floating Flags Links
+Plugin Name: Flag Icons Links
 
 Plugin URI: http://www.webcraft.gr/muli
 
-Description: This plugin helps you to add icons with links on the site.
+Description: This plugin helps you to add flag icons with links on the site.
 
 Author: Vasilis Triantafyllou
 
-Version: 1.1
+Version: 1.2
 
 Author URI: http://www.webcraft.gr
 
@@ -113,6 +113,10 @@ $opt38 = get_option('option_38');
 
 $opt39 = get_option('option_39');
 
+$opt40 = get_option('option_40');
+
+$opt41 = get_option('option_41');
+
 
 
 if ($opt1 == 1) { ?><a href ="<?php echo get_option('option_name1'); ?>"><?php echo '<img alt = "English" title = "English" src="' . plugins_url( 'img/english.png' , __FILE__ ) . '" >'; ?></a> <?php }
@@ -192,6 +196,11 @@ if ($opt37 == 1) { ?><a href ="<?php echo get_option('option_name37'); ?>"><?php
 if ($opt38 == 1) { ?><a href ="<?php echo get_option('option_name38'); ?>"><?php echo '<img alt = "Latvia" title = "Latvia"  src="' . plugins_url( 'img/latvia.png' , __FILE__ ) . '" >'; ?></a> <?php }
 
 if ($opt39 == 1) { ?><a href ="<?php echo get_option('option_name39'); ?>"><?php echo '<img alt = "Lithuania" title = "Lithuania"  src="' . plugins_url( 'img/lithuania.png' , __FILE__ ) . '" >'; ?></a> <?php }
+
+
+if ($opt40 == 1) { ?><a href ="<?php echo get_option('option_name40'); ?>"><?php echo '<img alt = "Belgium" title = "Belgium"  src="' . plugins_url( 'img/belgium.png' , __FILE__ ) . '" >'; ?></a> <?php }
+
+if ($opt41 == 1) { ?><a href ="<?php echo get_option('option_name41'); ?>"><?php echo '<img alt = "Hong Kong" title = "Hong Kong"  src="' . plugins_url( 'img/hongkong.png' , __FILE__ ) . '" >'; ?></a> <?php }
 else {} }
 
 
