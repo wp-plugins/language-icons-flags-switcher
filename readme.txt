@@ -1,10 +1,10 @@
-=== Language Icon Switcher ===
+=== Flag Icons ===
 Contributors: havengr
 Donate link: 
 Tags: language, flags, multisite, icons, switch, select, flag, icon, country, countries
 Requires at least: 3.3
 Tested up to: 3.5.1
-Stable tag: 1.2
+Stable tag: 1.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,7 +16,7 @@ This plugin helps you to add the flag icons with the targeted links on your site
 
 You just have to select position,flag and add the link!
 
-Flags Icons: English, Greece, Belgium, Hong Kong, Brazil, Estonia, Lithuania, Latvia, Argentina, Finland, Norway, Germany, Spain, Wales, Ireland, Romania, India, Hungary, Portugal, Usa, Turkey, Japan, Israel, Saudi Arabia, Sweden, France, Italy, Netherlands, s. Korea, China, Czech , Cyprus, Russia, Malaysia, Singapore, Thailand, Denmark, Bulgaria , Canada and Poland.
+Flags Icons: English, Bosnia, Moldova, Greece, Belgium, Hong Kong, Brazil, Estonia, Lithuania, Latvia, Argentina, Finland, Norway, Germany, Spain, Wales, Ireland, Romania, India, Hungary, Portugal, Usa, Turkey, Japan, Israel, Saudi Arabia, Sweden, France, Italy, Netherlands, s. Korea, China, Czech , Cyprus, Russia, Malaysia, Singapore, Thailand, Denmark, Bulgaria , Canad, Dominician Republic and Poland.
 
 == Installation ==
 
@@ -52,8 +52,7 @@ Thanks
 
 == Upgrade notice ==
 
-Fixed Bug with register_mysettings.
-Added three more languages.
+Sort Icons by order
 
 == Arbitrary section 1 ==
 

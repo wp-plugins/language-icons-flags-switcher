@@ -22,4 +22,6 @@ input[type="url"] {width:300px;}
 
 #wpfooter {display:none;}
 
+input[type="number"] {width:50px;}
+
 
