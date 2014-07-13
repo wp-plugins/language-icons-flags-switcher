@@ -88,9 +88,9 @@ elseif ($op8 == 1) { ?><div class ="op8"><?php }
 
 else { ?><div class ="op9"><?php }
 
-if ($opff == 1) { ?><style>.op8 {position:absolute !important;}</style><?php } else {  ?><style>.op8 {position:fixed!important;}</style><?php }
+if ($opff == 1) { ?><style>.op8,.op7,.op6,.op5,.op4,.op3,.op2,.op1 {position:absolute !important;}</style><?php } else {  ?><style>.op8,.op7,.op6,.op5,.op4,.op3,.op2,.op1  {position:fixed!important;}</style><?php }
 
-if ($opin == 1) { ?><style>a {float:left;margin:5px;}</style><?php } else {  }
+if ($opin == 1) { ?><style>.op8 a,.op7 a,.op6 a,.op5 a,.op4 a,.op3 a,.op2 a,.op1 a {float:left;margin:5px;}</style><?php } else {  }
 
 
 
