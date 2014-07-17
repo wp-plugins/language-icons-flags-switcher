@@ -35,11 +35,11 @@ function register_mysettings_language() {
  register_setting( 'myoption-group', 'option_inline' );
 
 
-/* START OF DIMITRIOS TESTS */
 
-$number_of_options = 44;
 
-/* END OF DIMITRIOS TESTS */
+$number_of_options = 45;
+
+
 
 
 /*  START OF SQUEEZING opts*/
@@ -241,6 +241,8 @@ function my_plugin_options() {
 			<input type="checkbox" name="option_22" value="1" <?php checked( '1', get_option( 'option_22' ) ); ?>><img src="<?php echo plugins_url( 'img/singapore.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name22" value="<?php echo get_option('option_name22'); ?>"><input type="number" value="<?php if(trim(get_option('option_order22'))==''){echo "0";}else{echo get_option('option_order22');}?>" value="<?php if(trim(get_option('option_order27'))==''){echo "0";}else{echo get_option('option_order27');}?>" name="option_order22"><br/>
 			
 			<input type="checkbox" name="option_34" value="1" <?php checked( '1', get_option( 'option_34' ) ); ?>><img src="<?php echo plugins_url( 'img/slovakia.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name34" value="<?php echo get_option('option_name34'); ?>"><input type="number" value="<?php if(trim(get_option('option_order34'))==''){echo "0";}else{echo get_option('option_order34');}?>"  name="option_order34"><br/>
+
+<input type="checkbox" name="option_45" value="1" <?php checked( '1', get_option( 'option_45' ) ); ?>><img src="<?php echo plugins_url( 'img/slovenia.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name45" value="<?php echo get_option('option_name34'); ?>"><input type="number" value="<?php if(trim(get_option('option_order45'))==''){echo "0";}else{echo get_option('option_order45');}?>"  name="option_order45"><br/>
 			
 			<input type="checkbox" name="option_4" value="1" <?php checked( '1', get_option( 'option_4' ) ); ?>><img src="<?php echo plugins_url( 'img/spain.png' , __FILE__ ); ?>" ><input type="url" placeholder="Enter a valid url address" name="option_name4" value="<?php echo get_option('option_name4'); ?>"><input type="number" value="<?php if(trim(get_option('option_order4'))==''){echo "0";}else{echo get_option('option_order4');}?>"  name="option_order4"><br/>
 

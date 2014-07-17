@@ -22,7 +22,7 @@ Author URI: http://www.webcraft.gr
 */
 
 
-$number_of_options = 44; 
+$number_of_options = 45; 
 
 add_action('wp_footer', 'Ffll_fucntion');
 
@@ -33,7 +33,7 @@ add_shortcode( 'flagicons', 'Ffll__langshort' );
 
 function Ffll__langshort ($atts) {
 
-$number_of_options = 44; 
+$number_of_options = 45; 
 for ($i=1;$i<=$number_of_options;$i++){
 
 	${'opt'.$i} = get_option('option_'.$i);
@@ -90,11 +90,11 @@ else { ?><div class ="op9"><?php }
 
 if ($opff == 1) { ?><style>.op8,.op7,.op6,.op5,.op4,.op3,.op2,.op1 {position:absolute !important;}</style><?php } else {  ?><style>.op8,.op7,.op6,.op5,.op4,.op3,.op2,.op1  {position:fixed!important;}</style><?php }
 
-if ($opin == 1) { ?><style>.op8 a,.op7 a,.op6 a,.op5 a,.op4 a,.op3 a,.op2 a,.op1 a {float:left;margin:5px;}</style><?php } else {  }
+if ($opin == 1) { ?><style>.op8 a,.op7 a,.op6 a,.op5 a,.op4 a,.op3 a,.op2 a,.op1  a {float:left;margin:5px;}</style><?php } else { ?><style>.op8 a,.op7 a,.op6 a,.op5 a,.op4 a,.op3 a,.op2 a,.op1  a {display:block;}</style><?php }
 
 
 
-$number_of_options = 44;
+$number_of_options = 45;
 
 
 for ($i=1;$i<=$number_of_options;$i++){

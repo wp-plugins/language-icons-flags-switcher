@@ -44,14 +44,15 @@ $flags_info=array(
 		"opt41"=>array("name"=>"option_name41","img_alt"=>"hongkong","img_src"=>"img/hongkong.png","img_title"=>"hongkong "),
 		"opt42"=>array("name"=>"option_name42","img_alt"=>"Dominician Rep","img_src"=>"img/dominician.png","img_title"=>"Dominician Rep "),
 		"opt43"=>array("name"=>"option_name43","img_alt"=>"Moldova","img_src"=>"img/moldova.png","img_title"=>"Moldova"),
-		"opt44"=>array("name"=>"option_name44","img_alt"=>"Bosnia","img_src"=>"img/bosnia.png","img_title"=>"Bosnia")
+		"opt44"=>array("name"=>"option_name44","img_alt"=>"Bosnia","img_src"=>"img/bosnia.png","img_title"=>"Bosnia"),
+		"opt45"=>array("name"=>"option_name45","img_alt"=>"Slovenia","img_src"=>"img/slovenia.png","img_title"=>"Slovenia")
 );
 
 
 
 
 
-$number_of_options = 44;
+$number_of_options = 45;
 $i=1;
 $options_order=array();
 for ($i=1;$i<=$number_of_options;$i++){
