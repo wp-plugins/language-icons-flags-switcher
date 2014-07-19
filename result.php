@@ -45,14 +45,16 @@ $flags_info=array(
 		"opt42"=>array("name"=>"option_name42","img_alt"=>"Dominician Rep","img_src"=>"img/dominician.png","img_title"=>"Dominician Rep "),
 		"opt43"=>array("name"=>"option_name43","img_alt"=>"Moldova","img_src"=>"img/moldova.png","img_title"=>"Moldova"),
 		"opt44"=>array("name"=>"option_name44","img_alt"=>"Bosnia","img_src"=>"img/bosnia.png","img_title"=>"Bosnia"),
-		"opt45"=>array("name"=>"option_name45","img_alt"=>"Slovenia","img_src"=>"img/slovenia.png","img_title"=>"Slovenia")
+		"opt45"=>array("name"=>"option_name45","img_alt"=>"Slovenia","img_src"=>"img/slovenia.png","img_title"=>"Slovenia"),
+		"opt46"=>array("name"=>"option_name46","img_alt"=>"Iceland","img_src"=>"img/iceland.png","img_title"=>"Iceland"),
+		"opt47"=>array("name"=>"option_name47","img_alt"=>"Klingon","img_src"=>"img/klingon.png","img_title"=>"Klingon")
 );
 
 
 
 
 
-$number_of_options = 45;
+$number_of_options = 47;
 $i=1;
 $options_order=array();
 for ($i=1;$i<=$number_of_options;$i++){
