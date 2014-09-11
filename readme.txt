@@ -36,7 +36,7 @@ For Multisite:
 
 = My language is not there, what can i do? =
 
-You can send me in http://webcraft.gr/contact/ to add your country flag to the new version!
+You can send me in http://www.webcraft.gr/muli/ to add your country flag to the new version!
 
 Thanks
 
