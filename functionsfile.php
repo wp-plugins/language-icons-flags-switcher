@@ -22,7 +22,7 @@ Author URI: http://www.webcraft.gr
 */
 
 
-$number_of_options = 47; 
+$number_of_options = 52; 
 
 add_action('wp_footer', 'Ffll_fucntion');
 
@@ -33,7 +33,7 @@ add_shortcode( 'flagicons', 'Ffll__langshort' );
 
 function Ffll__langshort ($atts) {
 
-$number_of_options = 47; 
+$number_of_options = 52; 
 for ($i=1;$i<=$number_of_options;$i++){
 
 	${'opt'.$i} = get_option('option_'.$i);
@@ -94,7 +94,7 @@ if ($opin == 1) { ?><style>.op8 a,.op7 a,.op6 a,.op5 a,.op4 a,.op3 a,.op2 a,.op1
 
 
 
-$number_of_options = 47;
+$number_of_options = 52;
 
 
 for ($i=1;$i<=$number_of_options;$i++){
