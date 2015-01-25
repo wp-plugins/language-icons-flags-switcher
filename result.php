@@ -52,14 +52,17 @@ $flags_info=array(
 		"opt49"=>array("name"=>"option_name49","img_alt"=>"Egypt","img_src"=>"img/egypt.png","img_title"=>"Egypt"),
 		"opt50"=>array("name"=>"option_name50","img_alt"=>"Croatia","img_src"=>"img/croatia.png","img_title"=>"Croatia"),
 		"opt51"=>array("name"=>"option_name51","img_alt"=>"Australia","img_src"=>"img/australia.png","img_title"=>"Australia"),
-		"opt52"=>array("name"=>"option_name52","img_alt"=>"Algeria","img_src"=>"img/algeria.png","img_title"=>"Algeria")
+		"opt52"=>array("name"=>"option_name52","img_alt"=>"Algeria","img_src"=>"img/algeria.png","img_title"=>"Algeria"),
+		"opt53"=>array("name"=>"option_name53","img_alt"=>"Indonesia","img_src"=>"img/indonesia.png","img_title"=>"Indonesia"),
+		"opt54"=>array("name"=>"option_name54","img_alt"=>"United Arabic Emirates","img_src"=>"img/ua.png","img_title"=>"United Arabic Emirates"),
+		"opt55"=>array("name"=>"option_name55","img_alt"=>"Europe","img_src"=>"img/eu.png","img_title"=>"Europe")
 );
 
 
 
 
 
-$number_of_options = 52;
+$number_of_options = 55;
 $i=1;
 $options_order=array();
 for ($i=1;$i<=$number_of_options;$i++){

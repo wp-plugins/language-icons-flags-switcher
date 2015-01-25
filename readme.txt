@@ -16,7 +16,7 @@ This plugin helps you to add the flag icons with the targeted links on your site
 
 You just have to select position,flag and add the link!
 
-Flags Icons: English, Bosnia, Klingon, Iceland, Moldova, Greece, Belgium, Hong Kong, Brazil, Estonia, Lithuania, Latvia, Argentina, Finland, Norway, Germany, Spain, Wales, Ireland, Romania, India, Hungary, Portugal, Usa, Turkey, Japan, Israel, Saudi Arabia, Sweden, France, Italy, Netherlands, s. Korea, China, Czech , Cyprus, Russia, Malaysia, Singapore, Thailand, Denmark, Bulgaria , Canad, Dominician Republic, Croatia, Egypt, Algeria, Australia and Poland.
+Flags Icons: English, Bosnia, Klingon, Iceland, Moldova, Greece, Belgium, EU, UAE, Indonesia, Hong Kong, Brazil, Estonia, Lithuania, Latvia, Argentina, Finland, Norway, Germany, Spain, Wales, Ireland, Romania, India, Hungary, Portugal, Usa, Turkey, Japan, Israel, Saudi Arabia, Sweden, France, Italy, Netherlands, s. Korea, China, Czech , Cyprus, Russia, Malaysia, Singapore, Thailand, Denmark, Bulgaria , Canad, Dominician Republic, Croatia, Egypt, Algeria, Australia and Poland.
 
 == Installation ==
 
