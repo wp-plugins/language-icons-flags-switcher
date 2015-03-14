@@ -55,14 +55,19 @@ $flags_info=array(
 		"opt52"=>array("name"=>"option_name52","img_alt"=>"Algeria","img_src"=>"img/algeria.png","img_title"=>"Algeria"),
 		"opt53"=>array("name"=>"option_name53","img_alt"=>"Indonesia","img_src"=>"img/indonesia.png","img_title"=>"Indonesia"),
 		"opt54"=>array("name"=>"option_name54","img_alt"=>"United Arabic Emirates","img_src"=>"img/ua.png","img_title"=>"United Arabic Emirates"),
-		"opt55"=>array("name"=>"option_name55","img_alt"=>"Europe","img_src"=>"img/eu.png","img_title"=>"Europe")
+		"opt55"=>array("name"=>"option_name55","img_alt"=>"Europe","img_src"=>"img/eu.png","img_title"=>"Europe"),
+		"opt56"=>array("name"=>"option_name56","img_alt"=>"Catalan","img_src"=>"img/catalan.png","img_title"=>"Catalan"),
+		"opt57"=>array("name"=>"option_name57","img_alt"=>"Iran","img_src"=>"img/iran.png","img_title"=>"Iran"),
+		"opt58"=>array("name"=>"option_name58","img_alt"=>"Iraq","img_src"=>"img/iraq.png","img_title"=>"Iraq"),
+		"opt59"=>array("name"=>"option_name59","img_alt"=>"Esperado","img_src"=>"img/esperado.png","img_title"=>"Esperado"),
+		"opt60"=>array("name"=>"option_name60","img_alt"=>"Ukraine","img_src"=>"img/ukraine.png","img_title"=>"Ukraine")
 );
 
 
 
 
 
-$number_of_options = 55;
+$number_of_options = 60;
 $i=1;
 $options_order=array();
 for ($i=1;$i<=$number_of_options;$i++){
